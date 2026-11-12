@@ -6,6 +6,8 @@ An automated ELT pipeline and dashboard for Bitcoin (BTC/USD), built on Databric
 
 Binovate is a fictional trading firm used for this portfolio project. The aim is a low-cost, hands-off alternative to manual price tracking and spreadsheet admin.
 
+![Bitcoin Performance Dashboard](images/final-dash.png)
+
 ## What it does
 
 - Pulls BTC/USD 4-hour bars from Alpaca and lands them as monthly Parquet files
@@ -97,7 +99,7 @@ A read of the Gold tables over August to November 2026:
 
 ## Dashboard
 
-The Bitcoin Performance Dashboard sits on the Gold tables and is styled in the Binovate brand. It shows how the price is changing rather than just where it is: tiles for the current price and the price a week ago, plus daily and weekly rate of change. A PDF export is in [Project Slides & Dashboard](Project%20Slides%20%26%20Dashboard).
+The Bitcoin Performance Dashboard (shown near the top) sits on the Gold tables and is styled in the Binovate brand. It shows how the price is changing rather than just where it is: tiles for the current price and the price a week ago, plus daily and weekly rate of change. A PDF export is in [Project Slides & Dashboard](Project%20Slides%20%26%20Dashboard).
 
 ## AI agent
 
